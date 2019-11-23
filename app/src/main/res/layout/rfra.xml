@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+
+            <EditText
+                android:id="@+id/et1"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=" id " />
+            <EditText
+                android:id="@+id/et2"
+                android:inputType="text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="name" />
+            <EditText
+                android:id="@+id/et3"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="stT" />
+            <EditText
+                android:id="@+id/et4"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="enT" />
+            <EditText
+                android:id="@+id/et5"
+                android:inputType="text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="type" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:context=".MainActivity">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="cre"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="upd"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="sho"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="del"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="sea"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
